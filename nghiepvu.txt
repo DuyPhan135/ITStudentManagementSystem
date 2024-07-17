@@ -1,0 +1,66 @@
+Chào bạn! Tôi là một khách hàng cần một trang web quản lý sinh viên sử dụng Spring Framework. Dưới đây là yêu cầu chi tiết cho trang web này:
+
+a) Yêu cầu chính:
+
+1. Quản lý sinh viên:
+    * Thêm mới sinh viên.
+    * Chỉnh sửa thông tin sinh viên.
+    * Xóa sinh viên.
+    * Xem danh sách sinh viên.
+    * Tìm kiếm sinh viên theo các tiêu chí như tên, mã sinh viên, lớp, khoa, v.v.
+
+2. Quản lý lớp học:
+    * Thêm mới lớp học.
+    * Chỉnh sửa thông tin lớp học.
+    * Xóa lớp học.
+    * Xem danh sách các lớp học.
+    * Tìm kiếm lớp học.
+
+3. Quản lý môn học:
+    * Thêm mới môn học.
+    * Chỉnh sửa thông tin môn học.
+    * Xóa môn học.
+    * Xem danh sách các môn học.
+    * Tìm kiếm môn học.
+
+4. Quản lý giảng viên:
+    * Thêm mới giảng viên.
+    * Chỉnh sửa thông tin giảng viên.
+    * Xóa giảng viên.
+    * Xem danh sách giảng viên.
+    * Tìm kiếm giảng viên.
+
+5. Quản lý điểm:
+    * Nhập điểm cho sinh viên.
+    * Chỉnh sửa điểm số.
+    * Xem danh sách điểm theo từng môn học, từng lớp học.
+    * Tính toán GPA cho sinh viên.
+
+b) Yêu cầu phụ:
+
+1. Quản lý người dùng:
+    * Hệ thống đăng nhập/đăng xuất.
+    * Phân quyền cho người dùng (quản trị viên, giảng viên, sinh viên).
+
+2. Báo cáo và thống kê:
+    * Báo cáo số lượng sinh viên theo từng lớp, từng khoa.
+    * Thống kê điểm số trung bình của các lớp học, môn học.
+
+3. Giao diện người dùng:
+    * Giao diện thân thiện, dễ sử dụng.
+    * Đảm bảo trang web responsive để sử dụng tốt trên các thiết bị di động và máy tính bảng.
+
+4. An ninh:
+    * Bảo mật thông tin sinh viên.
+    * Sử dụng mã hóa cho thông tin nhạy cảm.
+
+5. Hiệu năng:
+    * Hệ thống hoạt động mượt mà với số lượng lớn dữ liệu.
+
+Công nghệ sử dụng:
+* Frontend: HTML, CSS, JavaScript (có thể sử dụng framework như ReactJS hoặc Angular nếu cần).
+* Backend: Spring Framework (Spring Boot, Spring MVC, Spring Data JPA).
+* Database: MySQL hoặc PostgreSQL.
+Tính năng bổ sung (nếu có thể):
+* Hỗ trợ API để tích hợp với các hệ thống khác.
+* Hệ thống thông báo qua email hoặc SMS cho sinh viên về các sự kiện quan trọng (đăng ký môn học, lịch thi, v.v.).
